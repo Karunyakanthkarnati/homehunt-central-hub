@@ -52,6 +52,19 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				homehunt: {
+					50: '#f5f8ff',
+					100: '#edf2ff',
+					200: '#d9e3ff',
+					300: '#b8cbff',
+					400: '#8fa9ff',
+					500: '#6182ff',
+					600: '#3a5efd',
+					700: '#2544e6',
+					800: '#1e37ba',
+					900: '#1c3494',
+					950: '#142159'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
