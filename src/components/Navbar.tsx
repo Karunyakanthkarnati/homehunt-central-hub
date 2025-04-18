@@ -48,10 +48,12 @@ export const Navbar = () => {
             <Button variant="ghost" size="sm" className="gap-2">
               <Bell className="h-4 w-4" />
             </Button>
-            <Button variant="ghost" size="sm" className="gap-2">
-              <User className="h-4 w-4" />
-              <span>Sign In</span>
-            </Button>
+            <Link to="/signin">
+              <Button variant="ghost" size="sm" className="gap-2">
+                <User className="h-4 w-4" />
+                <span>Sign In</span>
+              </Button>
+            </Link>
             <Button size="sm" className="bg-homehunt-600 hover:bg-homehunt-700">
               List Property
             </Button>
@@ -89,9 +91,11 @@ export const Navbar = () => {
             ))}
             <div className="border-t border-gray-200 pt-4 pb-3">
               <div className="flex items-center px-4">
-                <Button size="sm" className="w-full bg-homehunt-600 hover:bg-homehunt-700">
-                  Sign In
-                </Button>
+                <Link to="/signin" className="w-full">
+                  <Button size="sm" className="w-full bg-homehunt-600 hover:bg-homehunt-700">
+                    Sign In
+                  </Button>
+                </Link>
               </div>
               <div className="mt-3">
                 <Button 
